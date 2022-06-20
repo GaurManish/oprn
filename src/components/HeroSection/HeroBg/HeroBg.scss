@@ -1,0 +1,28 @@
+.heroBg {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  .bgImg {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    .topShade {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 15vh;
+      background: linear-gradient(
+        to left bottom,
+        #000000 0%,
+        rgba(0, 0, 0, 0) 75.56%
+      );
+      @media (max-width: 1024px) {
+        background: rgba($color: #000000, $alpha: 0.5);
+      }
+      z-index: 5;
+    }
+  }
+}

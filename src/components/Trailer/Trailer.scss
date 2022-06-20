@@ -1,0 +1,50 @@
+@import '../../breakpoint.scss';
+
+.trailerSection {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .trailerTitle {
+    position: absolute;
+    top: 30%;
+    display: none;
+    font-size: 1.6rem;
+    font-family: 'Philosopher', sans-serif;
+    color: #ff8a00;
+    font-weight: bold;
+    @include media('<=phone') {
+      display: block;
+    }
+  }
+  .trailerVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    height: 85%;
+    padding: 3.7rem 0;
+    @include media('<=tablet') {
+      width: 85%;
+      height: unset;
+    }
+    @include media('<=phone') {
+      top: 60%;
+      width: 95%;
+    }
+    .player-wrapper {
+      position: relative;
+      padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+    }
+
+    .react-player {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}

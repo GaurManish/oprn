@@ -1,0 +1,243 @@
+@import '../../breakpoint.scss';
+
+.roadmapSection {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  color: #f2f2f2;
+  font-family: 'Philosopher', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .roadmapContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 3rem;
+    user-select: none;
+    @include media('<=tablet') {
+      padding: 100px 0;
+    }
+    .roadmapTitle {
+   
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        background: -webkit-linear-gradient(180deg, #ffc700 0%, #ff8a00 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+   
+      @include media('<=tablet') {
+        display: block;
+      }
+    }
+    .roadmapQuestCon {
+      margin: 0 1.5rem;
+      @include media('<=1700px') {
+        margin: 0 1.2rem;
+      }
+      @include media('<=SMdesktop') {
+        margin: 0 1.8rem;
+      }
+      @include media('<=tablet') {
+        margin: 2.3rem 2.4rem;
+      }
+      .outerImgContainer {
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .roadmapChar1 {
+          position: absolute;
+          top: -110px;
+          right: -130px;
+          width: 590px;
+          height: 590px;
+          z-index: 2;
+          display: none;
+          transition: all 0.3s ease-in;
+          @include media('<=1700px') {
+            top: -90px;
+            right: -73px;
+            width: 420px;
+            height: 480px;
+          }
+          @include media('<=SMdesktop') {
+            top: -60px;
+            right: -80px;
+            width: 310px;
+            height: 400px;
+          }
+          @include media('<=tablet') {
+            top: -20px;
+            right: -60px;
+            width: 380px;
+            height: 420px;
+          }
+        }
+        .roadmapChar2 {
+          position: absolute;
+          top: -100px;
+          left: -170px;
+          width: 720px;
+          height: 650px;
+          z-index: 2;
+          transition: all 0.3s ease-in;
+          display: none;
+          @include media('<=1700px') {
+            top: -70px;
+            left: -110px;
+            width: 560px;
+            height: 455px;
+          }
+          @include media('<=SMdesktop') {
+            top: -35px;
+            left: -90px;
+            width: 400px;
+            height: 350px;
+          }
+          @include media('<=phone') {
+            top: -20px;
+            left: -60px;
+            width: 340px;
+            height: 370px;
+          }
+        }
+        .roadmapChar3 {
+          position: absolute;
+          top: -100px;
+          right: -230px;
+          width: 620px;
+          height: 560px;
+          z-index: 2;
+          transition: all 0.3s ease-in;
+          display: none;
+          @include media('<=1700px') {
+            top: -70px;
+            right: -170px;
+            width: 510px;
+            height: 475px;
+          }
+          @include media('<=SMdesktop') {
+            top: -35px;
+            right: -140px;
+            width: 400px;
+            height: 370px;
+          }
+          @include media('<=phone') {
+            top: -20px;
+            right: -70px;
+            width: 340px;
+            height: 370px;
+          }
+        }
+        .roadmapChar4 {
+          position: absolute;
+          top: -100px;
+          right: -130px;
+          width: 550px;
+          height: 600px;
+          z-index: 2;
+          display: none;
+          transition: all 0.3s ease-in;
+          @include media('<=1700px') {
+            top: -40px;
+            right: -75px;
+            width: 400px;
+            height: 485px;
+          }
+          @include media('<=SMdesktop') {
+            top: -30px;
+            right: -90px;
+            width: 310px;
+            height: 370px;
+          }
+          @include media('<=tablet') {
+            top: -20px;
+            right: -60px;
+            width: 380px;
+            height: 420px;
+          }
+        }
+        .roadmapChar5 {
+          position: absolute;
+          top: -60px;
+          left: -150px;
+          width: 570px;
+          height: 650px;
+          z-index: 2;
+          transition: all 0.3s ease-in;
+          display: none;
+          @include media('<=1700px') {
+            top: -38px;
+            left: -100px;
+            width: 420px;
+            height: 530px;
+          }
+          @include media('<=SMdesktop') {
+            top: -30px;
+            left: -80px;
+            width: 310px;
+            height: 420px;
+          }
+          @include media('<=tablet') {
+            top: -20px;
+            left: -40px;
+            width: 270px;
+            height: 380px;
+          }
+          @include media('<=phone') {
+            top: -8px;
+            left: -20px;
+          }
+        }
+        .innerImgContainer {
+          width: 240px;
+          height: 400px;
+          cursor: pointer;
+          position: relative;
+          z-index: 3;
+          @include media('<=1700px') {
+            width: 200px;
+            height: 350px;
+          }
+          @include media('<=SMdesktop') {
+            width: 160px;
+            height: 280px;
+          }
+          @include media('<=tablet') {
+            width: 180px;
+            height: 300px;
+          }
+          @include media('<=phone') {
+            width: 200px;
+            height: 320px;
+          }
+
+          .imgContainer {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transition: all 0.3s ease-in;
+            user-select: none;
+          }
+        }
+        &:hover .innerImgContainer {
+          z-index: 8;
+        }
+        &:hover .innerImgContainer .imgContainer {
+          top: 30%;
+        }
+        &:hover .roadmapChar {
+          z-index: 5;
+          display: block;
+        }
+      }
+    }
+  }
+}
