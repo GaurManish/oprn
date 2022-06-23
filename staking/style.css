@@ -1,0 +1,294 @@
+body{
+    background-color:#000000 !important;
+	font-family: 'Philosopher', sans-serif !important;
+}
+a:active,a:hover,a:link,a:visited{
+    text-decoration:none
+}
+h1{
+    font-size:75px!important;
+    color:#fff;
+}
+
+h2{
+	font-size:45px !important;
+	margin-bottom:30px !important;
+}
+
+h3{
+}
+
+h4{
+}
+
+h5{
+}
+
+.txt01 {
+	font-size:40px;
+	font-weight:700;
+	color:#FEC344;
+}
+
+.txt01a {
+	font-size:40px;
+	font-weight:700;
+	color:#ffffff;
+}
+
+.txt02 {
+	font-size:15px;
+	letter-spacing:10px;
+	color:#FFF;
+}
+
+.txt03 {
+	font-size:65px;
+	color:#FFF;
+	padding-top:30px;
+}
+
+.txt03a {
+	font-size: 65px;
+	color: #FEC344;
+	padding-top: 30px;
+}
+
+.txt04 {
+	font-size:25px;
+	color:#FFF;
+}
+
+.txt05 {
+	font-size:35px;
+	font-weight:700;
+	color:#FEC344;
+	padding-bottom:25px;
+	padding-top:25px;
+}
+
+.txt06 {
+	font-size:20px;
+	color:#FFF;
+}
+
+.bk1{
+    background-image:url(img/bk01.png);
+    background-position:top center;
+    background-size:cover !important;
+    background-repeat:no-repeat!important;
+	min-height:900px;
+}
+
+.bk2{
+	background-image: url(img/patter01.png);
+	background-repeat:repeat;
+}
+
+.bk3{
+	background-image: url(img/line01.png);
+    background-position:top center;	
+    background-size:contain !important;
+    background-repeat:repeat-x !important;
+	min-height:50px;
+}
+
+.bk4{
+	background-image: url(img/staking01.png);
+    background-position:top center;
+    background-size:contain !important;
+    background-repeat:no-repeat!important;
+	min-height:600px;
+	padding:50px;
+}
+
+.bk5{
+	background-image: url(img/bar01.png);
+    background-position:top center;	
+    background-size:cover !important;
+	min-height:50px;
+}
+
+.bk6{
+	background-image: url(img/bk02.png);
+    background-position:top center;	
+    background-size:contain !important;
+    background-repeat:no-repeat!important;
+	min-height:400px;
+	padding:50px 100px 50px 100px;
+}
+
+.bk7{
+    background-image:url(img/bk03.png);
+    background-position:top center;
+    background-size:cover !important;
+    background-repeat:no-repeat!important;
+	min-height:250px;
+}
+
+.pad01{
+    padding-top:12%;
+    padding-bottom:1%;
+}
+
+.pad02{
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+.pad03{
+    padding-top:8%;
+}
+
+.pad04{
+    padding-top:4%;
+}
+
+.pad05{
+    padding-top:2%;
+}
+
+.pad06{
+    padding-left:8% !important;
+    padding-right:8% !important;
+	padding-top:8% !important;
+}
+
+.why-01 {
+	padding:20px;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+.why-02 {
+	padding:20px;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+.color01{
+	color:#ffffff;
+}
+
+.color02{
+	color:#FEC344;
+}
+
+.text-right{
+	text-align:right;
+}
+
+.text-left{
+	text-align:left;
+}
+
+
+.btn01{
+	background: #FEC344;
+    font-weight:700;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    color:#131304!important;
+	width:25%;
+}
+
+.btn02{
+	background: #FEC344;
+    font-weight:700;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    color:#131304!important;
+}
+
+.btn02a{
+	background: #ffffff;
+    font-weight:700;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    color:#131304!important;
+}
+
+.btn03{
+	background: #FEC344;
+    font-weight:700;
+    padding:10px 20px 10px 20px !important;
+    border-radius:10px;
+    color:#131304!important;
+}
+
+.btn04{
+    padding:10px 20px 10px 20px !important;
+}
+
+
+@media (min-width:993px){
+
+}
+@media (max-width:992px){
+
+.text-right{
+	text-align:center;
+}
+
+.text-left{
+	text-align:center;
+}
+
+h1{
+    font-size:55px!important;
+    color:#fff;
+}	
+	
+.bk1{
+    background-image:url(img/bk01.png);
+    background-position:top center;
+    background-size:cover !important;
+    background-repeat:no-repeat!important;
+	min-height:300px;
+}
+
+.bk3{
+	display:none;
+}
+
+.bk4{
+	background-image: url(img/staking01.png);
+    background-position:top center;
+    background-size:cover !important;
+    background-repeat:no-repeat!important;
+	min-height:650px;
+	padding:50px;
+}
+
+.center01 {
+	text-align:center;
+}
+
+.btn01{
+	background: #FEC344;
+    font-weight:700;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    color:#131304!important;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+}
+
+.btn02{
+	background: #FEC344;
+    font-weight:700;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    color:#131304!important;
+	width:100%!important;
+}
+
+.pad06{
+    padding:25% !important;
+}
+
+}
+@media (max-width:768px){
+
+}
